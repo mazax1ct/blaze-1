@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Beauty Blaze</title>
+
+  <meta name="description" content="Бесплатное приложение для поиска Beauty-мастеров">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  //= template/favicon.html
+
+  //= template/style.html
+</head>
+
+<body>
+  //= template/sprite.html
+
+  <header class="header">
+    <div class="header__logo"><img src="images/logo.svg" alt="Beauty Blaze"></div>
+    <nav class="header__menu">
+      <ul class="header__menu-list">
+        <li class="header__menu-item"><a class="js-scroll-to header__menu-link" href="#about"><span>О приложении</span></a></li>
+        <li class="header__menu-item"><a class="js-scroll-to header__menu-link" href="#services"><span>Услуги</span></a></li>
+        <li class="header__menu-item"><a class="js-scroll-to header__menu-link header__menu-link--button" href="#download">Скачать</a></li>
+      </ul>
+    </nav>
+    <ul class="header__social">
+      <li class="header__social-item"><a class="header__social-link" href="#" target="_blank" rel="nofollow noreferrer" title="instagram.com"><svg class="header__social-icon"><use xlink:href="#inst"></use></svg></a></li>
+      <li class="header__social-item"><a class="header__social-link" href="#" target="_blank" rel="nofollow noreferrer" title="vk.com"><svg class="header__social-icon"><use xlink:href="#vk"></use></svg></a></li>
+      <li class="header__social-item"><a class="header__social-link" href="#" target="_blank" rel="nofollow noreferrer" title="facebook.com"><svg class="header__social-icon"><use xlink:href="#fb"></use></svg></a></li>
+    </ul>
+  </header>
+  <section class="block-1">
+    <div class="block-1__inner">
+      <div class="block-1__image"><img width="292" height="588" srcset="images/content/block_1/iphone@2x.png 2x" src="images/content/block_1/iphone.png" alt="Iphone"></div>
+      <div class="block-1__text-block">
+        <p class="block-1__intro"><span>nails</span> <span>brows</span> lashes</p>
+        <h1>Beauty Blaze Client</h1>
+        <p class="block-1__text">Бесплатное приложение<br> для поиска Beauty-мастеров</p>
+        <p class="block-1__buttons">
+          <a class="block-1__button" href="#"><svg class="block-1__button-icon"><use xlink:href="#app_store"></use></svg>СКАЧАТЬ APP STORE</a>
+          <a class="block-1__button" href="#"><svg class="block-1__button-icon"><use xlink:href="#gplay"></use></svg>СКАЧАТЬ APP STORE</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="block-2">
+    <div class="block-2__inner">
+      <h2>Функции приложения</h2>
+      <div class="features">
+        <ul class="features__list">
+          <li class="features__item">
+            <span class="features__icon"><img src="images/content/block_2/icon_1.svg" alt=""></span>
+            <p>В <b>Beauty Blaze Client</b> собраны мастера индустрии красоты со всей России.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__icon"><img src="images/content/block_2/icon_2.svg" alt=""></span>
+            <p>Приложение позволяет легко и быстро найти необходимого мастера рядом с домом.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__icon"><img src="images/content/block_2/icon_3.svg" alt=""></span>
+            <p>Можно посмотреть работы мастера, цены, адрес и свзяаться через удобный мессенджер.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__icon"><img src="images/content/block_2/icon_4.svg" alt=""></span>
+            <p>База мастеров регулярно пополняется и проверяется на качество услуг.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__icon"><img src="images/content/block_2/icon_5.svg" alt=""></span>
+            <p>Не нужно регестрироваться и создавать аккаунт, Вам сразу будут доступны все возможности.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="block-3">
+    <div class="block-3__inner">
+      <h2>Услуги</h2>
+      <div class="services">
+        <div class="services__column">
+          <h3 class="services__title"><span class="services__title-icon"><img src="images/content/block_3/icon_1.svg" alt=""></span> nails</h3>
+          <ul>
+            <li>Маникюр</li>
+            <li>Маникюр с покрытием</li>
+            <li>Наращивание ногтей</li>
+            <li>Медицинский маникюр</li>
+            <li>Педикюр</li>
+            <li>Педикюр с покрытием</li>
+            <li>Медицинский педикюр</li>
+          </ul>
+        </div>
+        <div class="services__column">
+          <h3 class="services__title"><span class="services__title-icon"><img src="images/content/block_3/icon_2.svg" alt=""></span> brows</h3>
+          <ul>
+            <li>Коррекция бровей</li>
+            <li>Окрашивание краской</li>
+            <li>Окрашивание хной</li>
+            <li>Ламинирование бровей</li>
+          </ul>
+        </div>
+        <div class="services__column">
+          <h3 class="services__title"><span class="services__title-icon"><img src="images/content/block_3/icon_3.svg" alt=""></span> lashes</h3>
+          <ul>
+            <li>Наращивание ресниц</li>
+            <li>Снятие наращенных ресниц</li>
+            <li>Ламинирование ресниц</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="block-4">
+    <div id="download" class="block-4__inner">
+      <div class="block-4__text-block">
+        <p class="block-4__intro">Скачать приложение</p>
+        <h2>Beauty Blaze&nbsp;Client</h2>
+        <p class="block-4__buttons">
+          <a class="block-4__button" href="#" target="_blank" rel="nofollow noreferrer"><img src="images/content/block_4/gplay.png" alt="Google Play"></a>
+          <a class="block-4__button" href="#" target="_blank" rel="nofollow noreferrer"><img src="images/content/block_4/app_store.png" alt="App Store"></a>
+        </p>
+        <p class="block-4__text">В <b>Beauty Blaze Client</b> собраны<br> лучшие мастера индустрии<br> красоты со всей России.</p>
+      </div>
+      <p class="block-4__image"><img srcset="images/content/block_4/iphone@2x.png 2x" src="images/content/block_4/iphone.png" alt="iphone"></p>
+    </div>
+  </footer>
+
+  //= template/scripts.html
+</body>
+
+</html>

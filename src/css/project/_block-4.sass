@@ -1,0 +1,151 @@
+.block-4
+  margin-top: -230px
+  position: relative
+
+  @media(min-width: 768px)
+    margin-top: -100px
+
+  @media(min-width: 1200px)
+    margin-top: -230px
+
+  &::after
+    bottom: 0
+    background-color: #242424
+    content: ''
+    height: 410px
+    left: 0
+    position: absolute
+    top: auto
+    width: 100%
+    z-index: -1
+
+    @media(min-width: 1200px)
+      height: 460px
+
+  &__inner
+    margin-left: auto
+    margin-right: auto
+    padding-left: 20px
+    padding-right: 20px
+    padding-top: 55px
+    position: relative
+    transform: translateY(-70px)
+    width: 320px
+
+    @media(min-width: 768px)
+      align-items: center
+      display: flex
+      justify-content: center
+      transform: translateY(-100px)
+      width: 540px
+
+    @media(min-width: 1200px)
+      height: 688px
+      padding-left: 130px
+      transform: translateY(-60px)
+      width: 1061px
+
+    &::after
+      background: url('../images/backgrounds/block_4/mobile.svg') no-repeat 0 0 transparent
+      filter: drop-shadow(0 1px 50px rgba(#000, 0.1))
+      content: ''
+      height: 523px
+      left: -160px
+      position: absolute
+      top: 0
+      width: 806px
+      z-index: -1
+
+      @media(min-width: 1200px)
+        background: url('../images/backgrounds/block_4/desktop.svg') no-repeat 0 0 transparent
+        content: ''
+        height: 688px
+        left: 0
+        position: absolute
+        top: 0
+        width: 1061px
+        z-index: -1
+
+  &__text-block
+    margin-bottom: 20px
+
+    @media(min-width: 768px)
+      margin-bottom: 0
+      order: 2
+
+  &__intro
+    margin-bottom: 10px
+
+    @media(min-width: 1200px)
+      font-size: 24px
+      margin-bottom: 20px
+
+  h2
+    font-size: 30px
+    font-weight: 700
+    line-height: 1
+    margin-bottom: 20px
+
+    @media(min-width: 1200px)
+      font-size: 80px
+      line-height: 90px
+
+  &__buttons
+    align-items: center
+    display: flex
+    margin-left: -8px
+    margin-right: -8px
+    margin-bottom: 30px
+
+    @media(min-width: 1200px)
+      margin-bottom: 45px
+
+  &__button
+    box-shadow: 0 1px 20px 0 rgba(#000, 0.15)
+    margin-left: 8px
+    margin-right: 8px
+    max-width: 156px
+    transition: transform 0.3s, box-shadow 0.3s
+    will-change: transform
+
+    &:hover
+      box-shadow: 0 1px 20px 0 rgba(#000, 0.3)
+      transform: translateY(-3px)
+
+    &:active
+      box-shadow: 0 1px 20px 0 rgba(#000, 0.15)
+      transform: translateY(3px)
+
+  &__text
+    background: url('../images/content/block_4/emoji_column.png') no-repeat 0 50% / 20px auto transparent
+    font-size: 13px
+    line-height: 1.38461
+    min-height: 72px
+    padding-left: 35px
+    padding-top: 8px
+    padding-bottom: 8px
+
+    @media(min-width: 1200px)
+      background: url('../images/content/block_4/emoji.png') no-repeat 0 0 / 84px auto transparent
+      font-size: 16px
+      line-height: 24px
+      padding-bottom: 0
+      padding-top: 40px
+      padding-left: 0
+
+  &__image
+    margin-left: auto
+    margin-right: auto
+    width: 166px
+
+    @media(min-width: 768px)
+      order: 1
+      margin-right: 35px
+      margin-left: 0
+      min-width: 200px
+      width: 200px
+
+    @media(min-width: 1200px)
+      margin-right: 75px
+      min-width: 292px
+      width: 292px
