@@ -118,7 +118,7 @@
           margin-right: 15px
           width: 40px
 
-  h1
+  &__title
     font-size: 30px
     font-weight: 700
     line-height: 32px
@@ -175,9 +175,15 @@
       font-size: 16px
       height: 70px
       margin-bottom: 0
-      max-width: 270px
+      max-width: 290px
+      min-width: 270px
       padding-left: 25px
       padding-right: 25px
+      width: 270px
+
+    &:nth-child(2)
+      @media(min-width: 1200px)
+        width: 290px
 
     &:hover
       box-shadow: 0 1px 20px 0 rgba(#000, 0.3)
